@@ -476,6 +476,10 @@ header h1 {
 }
 
 @media screen and (orientation:portrait) {
+body {
+    background-color: #688691;
+    overflow-x: scroll;
+}
     /***************CSS COMMUN**************/
 
     header {
