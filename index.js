@@ -20,17 +20,6 @@ const headerAnim = () => {
     gsap.from("header", { y: -150, duration: 2 });
 }
 
-const accueilAnim = () => {
-    gsap.from(".video1", { x: 1850, duration: 2 });
-    gsap.from(".main_page", { x: 1850, duration: 4 });
-}
-
-const galerieAnim = () => {
-    let images = document.querySelectorAll('.galerie_images img')
-    gsap.from(".video", { x: 1850, duration: 2, stagger: 0.3, });
-    gsap.from(".galerie_images img", { x: 1850, duration: 2, stagger: 0.3, });
-}
-
 
 /*********CHANGEMENT CATEGORIES*********/
 accueil.forEach(elm => {
@@ -85,9 +74,6 @@ cross.addEventListener("click", () => {
         gsap.to(".modal", { x: 0, duration: 1 });
     }, 500);
 })
-
-headerAnim()
-accueilAnim()
 
 if (window.matchMedia("(width < 600px)").matches) {
     document.querySelector('.video1').innerHTML = ''

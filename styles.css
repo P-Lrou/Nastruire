@@ -200,8 +200,9 @@ header h1 {
 
 .videos {
     margin: 2vw;
-    margin-left: 15svw;
+    margin-left: 15vw;
     margin-right: 32vw;
+    animation: accueilAnim 2s;
 }
 
 .main_page {
@@ -235,6 +236,7 @@ header h1 {
 .galerie_videos {
     display: flex;
     justify-content: center;
+    animation: galerieAnim 2s;
 }
 
 .video {
@@ -255,6 +257,7 @@ header h1 {
 .galerie_images {
     display: flex;
     justify-content: center;
+    animation: galerieAnim 2s;
 }
 
 .galerie_images img {
@@ -487,6 +490,7 @@ header h1 {
     header .logo {
         margin: 0.2vw;
         margin-left: 1vw;
+        margin-top: 2vw;
         position: relative;
         width: 16vw;
         border-radius: 20px;
@@ -496,22 +500,26 @@ header h1 {
         margin-left: 2vw;
     }
 
-    header #accueil{
-        margin-top: 5vw;
-    }
-    header #galerie{
-        margin-top: 5vw;
-    }
-    header #quisommesnous{
-        margin-top: 5vw;
+    header #accueil {
+        margin-top: 4vw;
     }
 
-    header #telechargements{
+    header #galerie {
+        margin-top: 4vw;
+    }
+
+    header #quisommesnous {
+        margin-top: 4vw;
+    }
+
+    header #telechargements {
+        margin-top: -8vw;
         margin-left: 30vw;
         margin-bottom: 3vw;
     }
 
-    header #contacts{
+    header #contacts {
+        margin-top: -8vw;
         margin-bottom: 3vw;
     }
 
@@ -640,7 +648,7 @@ header h1 {
         text-align: center;
         color: #201b22;
         font-size: 8.5vw;
-        margin-top: 2vw;
+        margin-top: 3.5vw;
         margin-left: 0.5vw;
         font-family: 'Anton', sans-serif;
     }
@@ -652,6 +660,7 @@ header h1 {
 
     .first .texte_intro {
         margin: 2vw;
+        margin-top: 3vw;
         color: #ececec;
         font-family: 'Poppins', sans-serif;
         font-size: 3vw;
@@ -662,15 +671,17 @@ header h1 {
         width: 50vw;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
     }
 
     .intro h2 {
         text-align: center;
         color: #201b22;
         font-size: 8.5vw;
-        margin-top: 2vw;
+        margin-top: 1vw;
         margin-left: 0.5vw;
-        margin-bottom: 2vw;
+        margin-bottom: 3vw;
         font-family: 'Anton', sans-serif;
     }
 
@@ -685,7 +696,7 @@ header h1 {
         font-size: 5.5vw;
         font-family: 'Anton', sans-serif;
         margin: 1vw;
-        margin-bottom: 1vw;
+        margin-bottom: 2svw;
         text-align: center;
     }
 
@@ -749,13 +760,13 @@ header h1 {
         width: 50%;
     }
 
-    .download .linux img{
+    .download .linux img {
         margin-top: 2vw;
         margin-left: 18vw;
         margin-bottom: 2vw;
     }
 
-    .download .mac img{
+    .download .mac img {
         margin-top: 2vw;
         margin-left: 23vw;
     }
@@ -844,4 +855,26 @@ header h1 {
     .contactsAll .paypal:hover {
         transform: scale(1.1);
     }
+}
+
+
+@keyframes accueilAnim {
+    0% {
+        margin-left: 52vw;
+        margin-right: -20vw;
+    }
+    100% {
+        margin-left: 15vw;
+        margin-right: 32vw;
+    }
+}
+
+@keyframes galerieAnim {
+    0% {
+        margin-left: 200vw;
+    }
+    100%{
+        margin-left: 0vw;
+    }
+    
 }
