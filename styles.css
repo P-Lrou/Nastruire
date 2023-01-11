@@ -582,8 +582,9 @@ header h1 {
 
     .galerie_videos {
         display: grid;
-
-        margin-right: 7vw;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
     .video {
@@ -601,9 +602,10 @@ header h1 {
     }
 
     .galerie_images {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 7vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
     .galerie_images img {
