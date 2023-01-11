@@ -616,34 +616,36 @@ header h1 {
     .intro h1 {
         text-align: center;
         color: #201b22;
-        font-size: 4.5vw;
-        margin-top: 0.5vw;
+        font-size: 8.5vw;
+        margin-top: 2vw;
         margin-left: 0.5vw;
         font-family: 'Anton', sans-serif;
     }
 
     .first {
         display: flex;
+        flex-direction: column;
     }
 
     .first .texte_intro {
         margin: 2vw;
         color: #ececec;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.1vw;
-        margin-right: 10vw;
+        font-size: 3vw;
+        text-align: center;
     }
 
     .first .team_picture {
-        width: 23vw;
-        margin-right: 5vw;
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro h2 {
         text-align: center;
         color: #201b22;
-        font-size: 3.5vw;
-        margin-top: 0.5vw;
+        font-size: 8.5vw;
+        margin-top: 2vw;
         margin-left: 0.5vw;
         margin-bottom: 2vw;
         font-family: 'Anton', sans-serif;
@@ -652,43 +654,31 @@ header h1 {
     .second {
         display: flex;
         margin: 1vw;
+        flex-direction: column;
     }
 
     .second h3 {
         color: #201b22;
-        font-size: 1.5vw;
+        font-size: 5.5vw;
         font-family: 'Anton', sans-serif;
-        margin-bottom: 0.5vw;
+        margin: 1vw;
+        margin-bottom: 1vw;
+        text-align: center;
     }
 
     .second p {
         color: #ececec;
         font-family: 'Poppins', sans-serif;
-        font-size: 1vw;
-    }
-
-    .second .evan {
-        width: 100vw;
-        margin-right: 2vw;
-    }
-
-    .second .simon {
-        width: 100vw;
-        margin-right: 2vw;
-    }
-
-    .second .bastien {
-        width: 100vw;
-        margin-right: 2vw;
-    }
-
-    .second .thibault {
-        width: 100vw;
-        margin-right: 2vw;
+        font-size: 3vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80vw;
     }
 
     .second img {
-        width: 2.5vw;
+        margin-left: 44vw;
+        width: 10vw;
     }
 
 
@@ -785,7 +775,7 @@ header h1 {
         display: none;
         position: fixed;
         left: auto;
-        top: 10vw;
+        top: 15vw;
         right: 1vw;
         background-color: #1b2736;
         z-index: 1;
