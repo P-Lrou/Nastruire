@@ -496,8 +496,23 @@ header h1 {
         margin-left: 2vw;
     }
 
+    header #accueil{
+        margin-top: 5vw;
+    }
+    header #galerie{
+        margin-top: 5vw;
+    }
+    header #quisommesnous{
+        margin-top: 5vw;
+    }
+
     header #telechargements{
         margin-left: 30vw;
+        margin-bottom: 3vw;
+    }
+
+    header #contacts{
+        margin-bottom: 3vw;
     }
 
     header h1 {
