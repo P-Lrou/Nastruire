@@ -236,7 +236,7 @@ header h1 {
 .galerie_videos {
     display: flex;
     justify-content: center;
-    animation: galerieAnim 2s;
+    animation: galerieAnim 3s;
 }
 
 .video {
@@ -257,7 +257,7 @@ header h1 {
 .galerie_images {
     display: flex;
     justify-content: center;
-    animation: galerieAnim 2s;
+    animation: galerieAnim 3s;
 }
 
 .galerie_images img {
@@ -870,11 +870,10 @@ header h1 {
 }
 
 @keyframes galerieAnim {
-    0% {
-        margin-left: 200vw;
+    from {
+        margin-left: 150vw;
     }
-    100%{
+    to{
         margin-left: 0vw;
     }
-    
 }
