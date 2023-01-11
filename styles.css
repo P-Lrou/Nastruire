@@ -493,15 +493,15 @@ header h1 {
     }
 
     header .first {
-        margin-left: 8vw;
+        margin-left: 2vw;
     }
 
     header #telechargements{
-        margin-left: 34vw;
+        margin-left: 30vw;
     }
 
     header h1 {
-        font-size: 4vw;
+        font-size: 4.6vw;
         margin-top: auto;
         margin-bottom: auto;
         margin-right: 2vw;
@@ -581,8 +581,8 @@ header h1 {
     }
 
     .galerie_videos {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+
         margin-right: 7vw;
     }
 
