@@ -138,7 +138,6 @@ table {
 
 body {
     background-color: #688691;
-    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -261,8 +260,8 @@ header h1 {
 .galerie_images img {
     margin: 0.5vw;
     width: 23vw;
-    height: auto;
-    margin-bottom: 2vw;
+    height: 13vw;
+    margin-bottom: 0vw;
 }
 
 
@@ -549,8 +548,8 @@ header h1 {
     .main_page {
         position: fixed;
         margin-top: 0vw;
-        margin-left: 6vw;
-        width: 60vw;
+        margin-left: 40vw;
+        width: 35vw;
         box-shadow: 0px 0px 4vh rgb(255, 255, 255);
     }
 
@@ -576,10 +575,9 @@ header h1 {
     }
 
     .galerie_videos {
-        display: grid;
-        margin-top: 45vw;
-        margin-right: 0vw;
-        transform: scale(2);
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 7vw;
     }
 
     .video {
@@ -591,7 +589,7 @@ header h1 {
         text-align: center;
         color: #201b22;
         font-size: 10.5vw;
-        margin-top: 40vw;
+        margin-top: 1.5vw;
         margin-bottom: 1vw;
         font-family: 'Anton', sans-serif;
     }
@@ -599,14 +597,14 @@ header h1 {
     .galerie_images {
         display: flex;
         flex-wrap: wrap;
-        margin-right: 0vw;
+        margin-right: 7vw;
     }
 
     .galerie_images img {
         margin: 0.5vw;
-        width: 70vw;
-        height: auto;
-        margin-bottom: 2vw;
+        width: 40vw;
+        height: 21vw;
+        margin-bottom: 0vw;
     }
 
 
@@ -791,10 +789,10 @@ header h1 {
         right: 1vw;
         background-color: #1b2736;
         z-index: 1;
-        padding-bottom: 4vw;
+        padding-bottom: 5vw;
         width: 25%;
         margin-bottom: 1%;
-        border-radius: 5vh;
+        border-radius: 8vw;
         box-shadow: 0px 0px 2vh rgb(255, 255, 255);
     }
 
